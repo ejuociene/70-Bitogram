@@ -1,0 +1,44 @@
+.header-container {
+	height: 3.5rem;
+	padding: 0;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	background-color: var(--bgc);
+	border-bottom: 0.5px solid rgb(240, 240, 240);
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding-inline: 1rem;
+	margin: auto;
+}
+
+.nav {
+	display: flex;
+	gap: 1.4rem;
+}
+
+.header-logo {
+	font-family: var(--ff-logo);
+	font-size: 2rem;
+	letter-spacing: 1px;
+}
+
+.nav-icon {
+	cursor: pointer;
+	padding: 0.05rem;
+}
+
+@media only screen and (min-width: 600px) {
+	.header {
+		width: 500px;
+	}
+}

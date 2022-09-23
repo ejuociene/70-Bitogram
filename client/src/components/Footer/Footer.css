@@ -1,0 +1,37 @@
+.footer {
+	height: 3.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	overflow: hidden;
+	background-color: var(--bgc);
+	border-bottom: 0.5px solid rgb(240, 240, 240);
+}
+
+.footer-nav {
+	padding: 1rem 2rem;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.nav-icon {
+	cursor: pointer;
+	height: 1.5rem;
+	width: 1.5rem;
+}
+
+.footer-profile {
+	border-radius: 50%;
+}
+
+@media only screen and (min-width: 600px) {
+	.footer-nav {
+		width: 500px;
+	}
+}
